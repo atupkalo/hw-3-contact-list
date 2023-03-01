@@ -1,0 +1,56 @@
+.table-wrap {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table {
+  margin-bottom: 30px;
+}
+.table-title {
+  padding: 30px 0 20px 0;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+.cell {
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+}
+.empty {
+  padding: 10px 24px;
+  border: 1px solid #e75353;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+}
+.cell-phone {
+  font-weight: 500;
+  background: #efefef;
+  font-size: 1.1rem;
+}
+.cell-remove {
+  background: #f48038;
+  color: #fff;
+  cursor: pointer;
+}
+.cell-remove:hover {
+  background: #ef8b4d;
+}
+.add-btn {
+  width: 220px;
+  padding: 10px 24px;
+  background: #216362;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.add-btn:hover {
+  background: #329795;
+}
